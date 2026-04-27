@@ -4,9 +4,17 @@ const jestPlugin = require('eslint-plugin-jest');
 const auraConfig = require('@salesforce/eslint-plugin-aura');
 const lwcConfig = require('@salesforce/eslint-config-lwc');
 const globals = require('globals');
-const apexPlugin = require('eslint-plugin-apex');
 
 module.exports = defineConfig([
+    // Global jest version
+    {
+        settings: {
+            jest: {
+                version: 29
+            }
+        }
+    },
+
     // Aura configuration
     {
         files: ['**/aura/**/*.js'],
@@ -29,13 +37,16 @@ module.exports = defineConfig([
     // LWC configuration with override for LWC test files
     {
         files: ['**/lwc/**/*.test.js'],
-        extends: [lwcConfig],
+        plugins: { jest: jestPlugin },
         rules: {
+            ...lwcConfig.configs.extended.rules, 
+            ...jestPlugin.configs.recommended.rules,
             '@lwc/lwc/no-unexpected-wire-adapter-usages': 'off'
         },
         languageOptions: {
             globals: {
-                ...globals.node
+                ...globals.node,
+                ...globals.jest
             }
         }
     },
@@ -56,16 +67,5 @@ module.exports = defineConfig([
             eslintJs
         },
         extends: ['eslintJs/recommended']
-    },
-
-    // Apex configuration
-    {
-        files: ['**/classes/**/*.cls', '**/triggers/**/*.trigger'],
-        plugins: {
-            apex: apexPlugin
-        },
-        rules: {
-            ...apexPlugin.configs.recommended.rules
-        }
     }
 ]);

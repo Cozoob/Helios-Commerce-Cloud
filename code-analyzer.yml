@@ -1,0 +1,8 @@
+engines:
+  pmd:
+    custom_rulesets: 
+      - "./config/ruleset.xml"
+  eslint:
+    eslint_config_file: ./config/eslint.config.js
+  flow:
+    disable_engine: false

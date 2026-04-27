@@ -1,0 +1,10 @@
+{
+    "xml.preferences.showSchemaDocumentationType": "none",
+    "codeAnalyzer.analyzeOnSave.enabled": true,
+    "codeAnalyzer.configFile": "code-analyzer.yml",
+    "codeAnalyzer.analyzeOnOpen.enabled": true,
+    "codeAnalyzer.severity 1": "Error",
+    "codeAnalyzer.severity 5": "Info",
+    "codeAnalyzer.ruleSelectors": "pmd:Helios_Commerce_Cloud_Ruleset eslint flow",
+    "codeAnalyzer.analyzeAutomatically.fileTypes": ".cls,.js,.apex,.trigger,.ts,.xml,.html,.js,.css"
+}

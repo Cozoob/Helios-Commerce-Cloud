@@ -1,0 +1,41 @@
+name: Salesforce Code Analyzer
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'force-app/**'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Salesforce CLI
+        run: npm install -g @salesforce/cli
+
+      - name: Install Code Analyzer Plugin
+        run: sf plugins install code-analyzer
+
+      - name: Run Code Analyzer
+        # We use --rule-selector to match your local setup
+        # Output to sarif format is crucial for GitHub integration
+        run: |
+          sf code-analyzer run \
+            --workspace . \
+            --rule-selector "config/ruleset.xml,eslint.config.js,flow,sfge" \
+            --output-file results.sarif
+        continue-on-error: true
+
+      - name: Upload SARIF file to GitHub Security Tab
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif

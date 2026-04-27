@@ -31,8 +31,6 @@ jobs:
         run: sf plugins install code-analyzer
 
       - name: Run Code Analyzer
-        # We use --rule-selector to match your local setup
-        # Output to sarif format is crucial for GitHub integration
         run: |
           sf code-analyzer run \
             --workspace . \
@@ -42,13 +40,7 @@ jobs:
 
       - name: Fix SARIF paths
         run: |
-          # Usuwa wszystko co stoi przed "force-app/" w ścieżkach plików
-          sed -i 's|[^"]*/force-app/|force-app/|g' results.sarif
-          # Usuwa prefix "file://" jeśli istnieje
-          sed -i 's|file://||g' results.sarif
-          
-          # Podgląd ,czy w logach czy ścieżka jest teraz krótka
-          grep "uri" results.sarif | head -n 5
+          cat results.sarif
 
       - name: Upload SARIF file to GitHub Security Tab
         uses: github/codeql-action/upload-sarif@v4

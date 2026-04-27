@@ -43,3 +43,5 @@ sfca_results.json
 
 scripts/
 config/
+
+node_modules/*

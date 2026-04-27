@@ -42,7 +42,8 @@ jobs:
 
       - name: Fix SARIF paths
         run: |
-          sed -i "s|$(pwd)/||g" results.sarif
+          sed -i "s|file:///home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/||g" results.sarif
+          sed -i "s|/home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/||g" results.sarif
 
       - name: Upload SARIF file to GitHub Security Tab
         uses: github/codeql-action/upload-sarif@v4

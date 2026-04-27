@@ -5,6 +5,11 @@ on:
     paths:
       - 'force-app/**'
 
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
 jobs:
   analyze:
     runs-on: ubuntu-latest
@@ -36,6 +41,6 @@ jobs:
         continue-on-error: true
 
       - name: Upload SARIF file to GitHub Security Tab
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: results.sarif

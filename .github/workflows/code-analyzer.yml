@@ -36,14 +36,19 @@ jobs:
         run: |
           sf code-analyzer run \
             --workspace . \
-            --rule-selector "config/ruleset.xml,eslint.config.js,flow,sfge" \
+            --rule-selector "pmd:Helios_Commerce_Cloud_Ruleset,eslint,flow" \
             --output-file results.sarif
         continue-on-error: true
 
       - name: Fix SARIF paths
         run: |
-          sed -i "s|file:///home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/||g" results.sarif
-          sed -i "s|/home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/||g" results.sarif
+          # Usuwa wszystko co stoi przed "force-app/" w ścieżkach plików
+          sed -i 's|[^"]*/force-app/|force-app/|g' results.sarif
+          # Usuwa prefix "file://" jeśli istnieje
+          sed -i 's|file://||g' results.sarif
+          
+          # Podgląd ,czy w logach czy ścieżka jest teraz krótka
+          grep "uri" results.sarif | head -n 5
 
       - name: Upload SARIF file to GitHub Security Tab
         uses: github/codeql-action/upload-sarif@v4

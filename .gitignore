@@ -37,3 +37,9 @@ sfca_results.json
 
 # Local environment variables
 .env
+
+# VisualStudioCode
+.vscode/
+
+scripts/
+config/

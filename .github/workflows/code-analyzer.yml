@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install Dependencies
+        run: npm install
+
       - name: Install Salesforce CLI
         run: npm install -g @salesforce/cli
 
@@ -40,6 +43,14 @@ jobs:
 
       - name: Fix SARIF paths
         run: |
+         # 1. Usuwamy uriBaseId, który psuje mapowanie ścieżek
+          sed -i '/"uriBaseId":/d' results.sarif
+          
+          # 2. Naprawiamy przecinki w JSON po usunięciu linii (usuwa przecinek po "uri")
+          sed -i 's/"uri": "\(.*\)",/"uri": "\1"/g' results.sarif
+          
+          # 3. Usuwamy wszelkie pozostałości ścieżek bezwzględnych z uri
+          sed -i 's|[^"]*/force-app/|force-app/|g' results.sarif
           cat results.sarif
 
       - name: Upload SARIF file to GitHub Security Tab

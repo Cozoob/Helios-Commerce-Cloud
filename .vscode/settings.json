@@ -6,5 +6,6 @@
     "codeAnalyzer.severity 1": "Error",
     "codeAnalyzer.severity 5": "Info",
     "codeAnalyzer.ruleSelectors": "pmd:Helios_Commerce_Cloud_Ruleset eslint flow",
-    "codeAnalyzer.analyzeAutomatically.fileTypes": ".cls,.js,.apex,.trigger,.ts,.xml,.html,.js,.css"
+    "codeAnalyzer.analyzeAutomatically.fileTypes": ".cls,.js,.apex,.trigger,.ts,.xml,.html,.js,.css",
+    "editor.formatOnSave": true
 }

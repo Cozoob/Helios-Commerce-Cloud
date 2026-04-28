@@ -1,0 +1,29 @@
+/**
+ * @author Oleh Berehovskyi
+ */
+@SuppressWarnings('PMD.ApexDoc')
+public inherited sharing class DropIterator extends BaseIterator {
+    private final Iterator<Object> iterator;
+    private final IPredicate predicate;
+
+    public DropIterator(final Iterator<Object> iterator, final IPredicate predicate) {
+        Validate.notNull(iterator);
+        Validate.notNull(predicate);
+        this.iterator = iterator;
+        this.predicate = predicate;
+    }
+
+    protected override void computeNext() {
+        if (!isInit) {
+            while (hasNext = iterator.hasNext()) {
+                next = iterator.next();
+                // prettier-ignore
+                if (!predicate.test(next)) { return; }
+            }
+        }
+        hasNext = hasNext && iterator.hasNext();
+        // prettier-ignore
+        if (!hasNext) { return; }
+        next = iterator.next();
+    }
+}

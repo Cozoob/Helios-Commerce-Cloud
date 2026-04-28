@@ -1,13 +1,100 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
   "name": "Helios-Commerce-Cloud",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
+  "defaultLwcLanguage": "javascript",
   "sourceApiVersion": "66.0",
-  "defaultLwcLanguage": "javascript"
+  "packageDirectories": [
+    {
+      "path": "force-app/core",
+      "package": "HeliosCore",
+      "default": true,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT"
+    },
+     {
+      "path": "force-app/libs",
+      "package": "libs",
+      "default": false
+    },
+    {
+      "path": "force-app/customer",
+      "package": "HeliosCustomer",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" }
+      ]
+    },
+    {
+      "path": "force-app/pricing",
+      "package": "HeliosPricing",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" },
+        { "package": "HeliosCustomer" }
+      ]
+    },
+    {
+      "path": "force-app/ordering",
+      "package": "HeliosOrdering",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" },
+        { "package": "HeliosCustomer" },
+        { "package": "HeliosPricing" }
+      ]
+    },
+    {
+      "path": "force-app/subscription",
+      "package": "HeliosSubscription",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" },
+        { "package": "HeliosCustomer" },
+        { "package": "HeliosPricing" }
+      ]
+    },
+    {
+      "path": "force-app/billing",
+      "package": "HeliosBilling",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" },
+        { "package": "HeliosCustomer" },
+        { "package": "HeliosOrdering" },
+        { "package": "HeliosSubscription" }
+      ]
+    },
+    {
+      "path": "force-app/marketplace",
+      "package": "HeliosMarketplace",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" },
+        { "package": "HeliosCustomer" }
+      ]
+    },
+    {
+      "path": "force-app/fraud",
+      "package": "HeliosFraud",
+      "default": false,
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "HeliosCore" }
+      ]
+    }
+  ]
 }

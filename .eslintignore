@@ -5,3 +5,4 @@ dist/
 build/
 **/*.json
 **/*.xml
+force-app/libs/**

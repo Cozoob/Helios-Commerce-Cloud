@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Nebula Logger --></label>
+        <name>LoggerConsole</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>ACF_ErrorMessage_DuplicateKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>ACF_ErrorMessage_StringPatternMismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AF_ErrorMessage_IndexOutOfBounds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AF_ErrorMessage_NoValuePresent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AF_ErrorMessage_NotReferenceField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AS_ErrorMessage_ArgumentNotPositive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AS_ErrorMessage_DuplicateKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AS_ErrorMessage_InputMutated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AS_ErrorMessage_InputNotMutated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AS_ErrorMessage_StreamOperated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AS_ErrorMessage_StringPatternMismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_BlankString</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_EmptyIterable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_EmptyString</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_Equal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_FalseCondition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_InstanceOf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_InvalidCreditCard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_InvalidEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_InvalidIndexIterable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_InvalidIndexString</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_InvalidState</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_LongStringLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NegativeDecimal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotBetween</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotEqual</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotFutureDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotFutureDatetime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotFutureOrPresentDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotFutureOrPresentDatetime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotInstanceOf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotNegativeDecimal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotNull</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotPastDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotPastDatetime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotPastOrPresentDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotPastOrPresentDatetime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NotPositiveDecimal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_Null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NullElementIterable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_NullMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_PatternMismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_ShortStringLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_StringLengthNotBetween</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message. --></label>
+        <name>AV_ErrorMessage_TrueCondition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Regular expression. --></label>
+        <name>AV_Regex_ValidEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a cross-object fieldsset is not allowed and attempted. --></label>
+        <name>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when selecting a field set for a different sobject type. --></label>
+        <name>fflib_QueryFactory_fieldset_wrong_sobject_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to nest subqueries. --></label>
+        <name>fflib_QueryFactory_recursive_subquery_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Presented when attempting to create a subquery from an invalid relationship. --></label>
+        <name>fflib_QueryFactory_subquery_invalid_relationship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Log Batch Purge --></label>
+        <name>LogBatchPurge</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Log Entry Event Stream --></label>
+        <name>LogEntryEventStream</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Logger Settings --></label>
+        <name>LoggerSettings</name>
+    </customTabs>
+</Translations>

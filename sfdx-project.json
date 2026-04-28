@@ -12,6 +12,11 @@
       "versionName": "v1.0",
       "versionNumber": "1.0.0.NEXT"
     },
+     {
+      "path": "force-app/libs",
+      "package": "libs",
+      "default": false
+    },
     {
       "path": "force-app/customer",
       "package": "HeliosCustomer",

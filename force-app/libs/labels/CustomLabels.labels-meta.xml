@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACF_ErrorMessage_DuplicateKey</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Duplicate key {0} (attempted merging values {1} and {2})</value>
+    </labels>
+    <labels>
+        <fullName>ACF_ErrorMessage_StringPatternMismatch</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>The string {0} does not match the pattern {1}</value>
+    </labels>
+    <labels>
+        <fullName>AF_ErrorMessage_IndexOutOfBounds</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Index {0} is out of bounds</value>
+    </labels>
+    <labels>
+        <fullName>AF_ErrorMessage_NoValuePresent</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>No value present</value>
+    </labels>
+    <labels>
+        <fullName>AF_ErrorMessage_NotReferenceField</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>{0} is not a lookup or master-detail field</value>
+    </labels>
+    <labels>
+        <fullName>AS_ErrorMessage_ArgumentNotPositive</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>The argument should be positive, actual: {0}</value>
+    </labels>
+    <labels>
+        <fullName>AS_ErrorMessage_DuplicateKey</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Duplicate key {0} (attempted merging values {1} and {2})</value>
+    </labels>
+    <labels>
+        <fullName>AS_ErrorMessage_InputMutated</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Original input should not be mutated</value>
+    </labels>
+    <labels>
+        <fullName>AS_ErrorMessage_InputNotMutated</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Original input should be mutated</value>
+    </labels>
+    <labels>
+        <fullName>AS_ErrorMessage_StreamOperated</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>The stream has already been operated</value>
+    </labels>
+    <labels>
+        <fullName>AS_ErrorMessage_StringPatternMismatch</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>The string {0} does not match the pattern {1}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_BlankString</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument string is blank</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_EmptyIterable</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument iterable is empty</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_EmptyString</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument string is empty</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_Equal</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Arguments {0} and {1} are equal</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_FalseCondition</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument condition is false</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_InstanceOf</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument object is an instance of {0}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_InvalidCreditCard</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument credit card {0} is invalid</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_InvalidEmail</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument email {0} is invalid</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_InvalidIndexIterable</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Iterable index out of bounds: {0}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_InvalidIndexString</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>String index out of bounds: {0}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_InvalidState</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument state is invalid</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_LongStringLength</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument string length is greater than {0}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NegativeDecimal</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument decimal {0} is negative</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotBetween</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument {0} is not between inclusive range from {1} to {2}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotEqual</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Arguments {0} and {1} are not equal</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotFutureDate</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument date {0} is not in the future</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotFutureDatetime</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument datetime {0} is not in the future</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotFutureOrPresentDate</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument date {0} is not in the future or present</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotFutureOrPresentDatetime</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument datetime {0} is not in the future or present</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotInstanceOf</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument object is not an instance of {0}. Actual type: {1}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotNegativeDecimal</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument decimal {0} is not negative</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotNull</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument object is not null. Actual value: {0}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotPastDate</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument date {0} is not in the past</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotPastDatetime</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument datetime {0} is not in the past</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotPastOrPresentDate</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument date {0} is not in the past or present</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotPastOrPresentDatetime</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument datetime {0} is not in the past or present</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NotPositiveDecimal</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument decimal {0} is not positive</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_Null</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument object is null</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NullElementIterable</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument iterable contains null element</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_NullMessage</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Exception message cannot be null</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_PatternMismatch</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument string {0} does not match the pattern {1}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_ShortStringLength</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument string length is less than {0}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_StringLengthNotBetween</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument string length {0} is not between inclusive range from {1} to {2}</value>
+    </labels>
+    <labels>
+        <fullName>AV_ErrorMessage_TrueCondition</fullName>
+        <categories>error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message.</shortDescription>
+        <value>Argument condition is true</value>
+    </labels>
+    <labels>
+        <fullName>AV_Regex_ValidEmail</fullName>
+        <categories>regex</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Regular expression.</shortDescription>
+        <value>^[a-zA-Z0-9_!#$%&amp;&apos;*+/=?`{|}~^-]+(?:\.[a-zA-Z0-9_!#$%&amp;&apos;*+/=?`{|}~^-]+)*@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a cross-object fieldsset is not allowed and attempted.</shortDescription>
+        <value>Cross-object fields not allowed and field &quot;{0}&quot; is a cross-object field.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_fieldset_wrong_sobject_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a field set for a different sobject type.</shortDescription>
+        <value>Field set &quot;{0}&quot; is not for SObject type &quot;{1}&quot;</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_recursive_subquery_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to nest subqueries.</shortDescription>
+        <value>Invalid call to subselectQuery.  You may not add a subselect query to a subselect query.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_subquery_invalid_relationship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to create a subquery from an invalid relationship.</shortDescription>
+        <value>Invalid call to subselectQuery.  Invalid relationship for table.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_deletable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels>
+</CustomLabels>
